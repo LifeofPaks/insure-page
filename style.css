@@ -178,10 +178,6 @@ h2, h4{
     width: 100%;
 }
 
-.hero-img{
-    width: 100%;
-}
-
 .hero-intro-title{
     font-size: 4rem;
     line-height: 4.1rem;
@@ -368,11 +364,6 @@ h2, h4{
 
     .intro-left-img.mobile{
         top: 0;
-    }
-
-
-    .hero-img{
-        width: 100%;
     }
 
     .hero-intro-container{
