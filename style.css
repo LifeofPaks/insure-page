@@ -209,7 +209,7 @@ h2, h4{
     margin-bottom: 10rem;
 }
 
-.gray{
+.hr.gray{
     background: var(--Dark-Grayish-Violet);
     margin-bottom: 3rem;
 }
@@ -326,6 +326,9 @@ h2, h4{
 
 @media (max-width: 600px){
 
+    body{
+        overflow-x: hidden;
+    }
     .section,
     .main-container,
     .footer{
@@ -470,10 +473,10 @@ h2, h4{
     }
 
     .nav-links.mobile{
-        display: block;
+        display: 0;
         position: absolute;
         top: 5.2rem;
-        left: 100vw;
+        left: 0;
         width: 100%;
         text-align: center;
         padding: 4rem 2rem;
@@ -482,14 +485,10 @@ h2, h4{
         background-image: url(images/bg-pattern-mobile-nav.svg);
         background-repeat: no-repeat;
         background-position: 0 100%;
-        opacity: 0;
-        transition: .3s;
-        
     }
 
     .nav-links.mobile.active{
-        left: 0;
-        opacity: 1;
+      display: block;
     }
 
     .link.mobile{
